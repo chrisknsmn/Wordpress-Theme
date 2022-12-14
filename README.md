@@ -22,11 +22,11 @@ $ docker-compose down --volumes
 $ mkdir wordpress
 $ cd wordpress
 ```
-- Create doker-compose.yaml file
+- Create docker-compose.yaml file
 ```
-$ touch doker-compose.yaml
+$ touch docker-compose.yaml
 ```
-- Populate doker-compose.yaml
+- Populate docker-compose.yaml
 ```
 version: '3'
 
