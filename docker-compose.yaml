@@ -1,33 +1,3 @@
-# Wordpress Theme
-
-Custom Wordpress theme development environment.
-Built from this source:
-
-> https://gist.github.com/bradtraversy/faa8de544c62eef3f31de406982f1d42# Wordpress Theme
-
-## Build yaml file
-
-```
-$ docker-compose up -d
-
-# To Tear Down
-$ docker-compose down --volumes
-```
-
-## Create yaml file
-
-- Start docker
-- Create and move to directory 
-```
-$ mkdir wordpress
-$ cd wordpress
-```
-- Create doker-compose.yaml file
-```
-$ touch doker-compose.yaml
-```
-- Populate doker-compose.yaml
-```
 version: '3'
 
 services:
@@ -76,11 +46,3 @@ networks:
   wpsite:
 volumes:
   db_data:
-```
-- Build wordpress environment
-```
-$ docker-compose up -d
-
-# To Tear Down
-$ docker-compose down --volumes
-```
